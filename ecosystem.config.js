@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'israel_strapi',
       exec_mode: 'cluster',
-      script: 'yarn',
+      script: 'NODE_ENV=production yarn',
       args: 'start'
     }
   ]
