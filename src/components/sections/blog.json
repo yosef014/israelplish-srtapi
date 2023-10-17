@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_blogs",
+  "info": {
+    "displayName": "blog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
